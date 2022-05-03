@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+.card {
+    width: 317px;
+    margin: 44px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #1A1B21;
+}
+.header, .about, .interests {
+    padding: 0 34px;
+    margin-bottom: 20px;
+}
+.header {
+    text-align: center;
+}
+.header > h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30.26px
+}
+.header > h3 {
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15.49px
+}
+.header> h4 {
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15.36px
+}
+.profile-img {
+    width: 317px;
+    height: 317px;
+}
+.profile-contacts {
+    display: flex;
+    justify-content: space-between
+}
+.btn-email, .btn-linkedin {
+    border-radius: 6px;
+    width: 113px;
+    height: 34px;
+}
+button {
+    border: 0;
+}
+.btn-email {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-email::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0e0";
+}
+.btn-linkedin {
+    background-color: #5093E2;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-linkedin::before {
+    font-family: "Font Awesome 5 Brands";
+    content: "\f08c";
+}
+.title {
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700px;
+}
+.about {
+    margin-top: 30px;
+}
+.interests {
+    margin-bottom: 24px;
+}
+.about, .interests {
+    color: #DCDCDC;
+    font-size: 10.24px;
+    font-weight: 400;
+}
+button:hover {
+    cursor: pointer;
+}
+.socials {
+    background-color: #161619;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7.5px;
+    padding-bottom: 19.5px;
+}
+.icon {
+    color: #918E9B;
+    font-size: 25px;
+    margin: 12px
+}
